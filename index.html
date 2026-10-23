@@ -1,0 +1,454 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="Shreyash Pandey's portfolio: web development, projects, music and aviation.">
+  <title>Shreyash Pandey | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="javascript/script.js" defer></script>
+</head>
+<body>
+  <div class="background-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo" aria-label="Shreyash Pandey home">
+        SP<span>.</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Open navigation" aria-expanded="false"
+        aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="main-nav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#interests" class="nav-link">Interests</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button class="theme-toggle" id="theme-toggle"
+          type="button" aria-label="Switch to light theme"
+          title="Toggle theme">☼</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="availability">
+            <span class="status-dot"></span>
+            OPEN TO LEARNING & COLLABORATION
+          </div>
+
+          <p class="eyebrow">HELLO, WORLD! I'M</p>
+          <h1>Shreyash<br><span class="gradient-text">Pandey.</span></h1>
+
+          <h2 class="hero-subtitle">
+            Developer in progress. <span>Dreamer in the skies.</span>
+          </h2>
+
+          <p class="hero-description">
+            I create digital experiences, explore new technologies,
+            play guitar, and work towards my aviation ambitions.
+            This is my corner of the internet.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              Explore my work <span aria-hidden="true">↗</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">Let's connect</a>
+          </div>
+
+          <div class="hero-meta">
+            <span><span class="meta-icon">⌘</span> Web development</span>
+            <span><span class="meta-icon">✈</span> Aviation enthusiast</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <div class="profile-card">
+            <div class="profile-top">
+              <span class="profile-indicator"></span>
+              <span>PROFILE_001</span>
+              <span class="profile-menu">•••</span>
+            </div>
+
+            <div class="profile-image-wrap">
+              <img
+                src="images/plane - Copy.jpeg"
+                alt="Shreyash Pandey"
+                class="profile-image"
+                width="360" height="440"
+                fetchpriority="high"
+              >
+              <div class="image-overlay"></div>
+              <div class="image-caption">
+                <span>BUILDING MY FUTURE</span>
+                <strong>One project at a time.</strong>
+              </div>
+            </div>
+
+            <div class="profile-bottom">
+              <div>
+                <span class="muted-label">CURRENT FOCUS</span>
+                <strong>Code & creativity</strong>
+              </div>
+              <span class="code-symbol">&lt;/&gt;</span>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-code">
+            <span class="badge-icon">&lt;/&gt;</span>
+            <span><strong>Developer</strong><small>Always learning</small></span>
+          </div>
+
+          <div class="floating-badge badge-flight">
+            <span class="badge-icon">✈</span>
+            <span><strong>Future pilot</strong><small>Eyes on the sky</small></span>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about">
+        <span></span> SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / THE PERSON BEHIND THE CODE</p>
+          <h2>A little about <span class="gradient-text">me.</span></h2>
+          <p>Curiosity drives everything I do.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card glass-card reveal">
+            <span class="card-icon">✳</span>
+            <h3>Curious by nature</h3>
+            <p>
+              I enjoy learning how things work, solving problems,
+              and turning ideas into real digital experiences.
+              I'm developing my front-end and back-end skills
+              one step at a time.
+            </p>
+          </article>
+
+          <article class="about-card glass-card reveal">
+            <span class="card-icon">↗</span>
+            <h3>Driven by ambition</h3>
+            <p>
+              My interests go beyond technology. Music keeps me
+              creative, rowing challenges me, and aviation inspires
+              me to aim higher. Earning my private pilot licence
+              is one of my long-term goals.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / MY TOOLKIT</p>
+          <h2>Skills & <span class="gradient-text">technologies.</span></h2>
+          <p>The tools I'm learning and using to bring ideas to life.</p>
+        </div>
+
+        <!-- <figure class="skills-photo reveal">
+          <img
+            src="images/coding-workspace.jpg"
+            alt="A laptop displaying code on a bright workspace desk"
+            width="1600" height="1066" loading="lazy"
+          > -->
+          <figcaption>
+            <span>LEARNING BY BUILDING</span>
+            <strong>One project at a time.</strong>
+          </figcaption>
+        </figure>
+
+        <div class="skills-grid">
+          <article class="skill-card glass-card reveal">
+            <div class="skill-icon html-icon">5</div>
+            <h3>HTML</h3>
+            <p>Semantic structure</p>
+            <span class="skill-tag">WEB</span>
+          </article>
+
+          <article class="skill-card glass-card reveal">
+            <div class="skill-icon css-icon">✳</div>
+            <h3>CSS</h3>
+            <p>Design & layouts</p>
+            <span class="skill-tag">WEB</span>
+          </article>
+
+          <article class="skill-card glass-card reveal">
+            <div class="skill-icon js-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Interactive experiences</p>
+            <span class="skill-tag">WEB</span>
+          </article>
+
+          <article class="skill-card glass-card reveal">
+            <div class="skill-icon java-icon">♨</div>
+            <h3>Java</h3>
+            <p>Programming fundamentals</p>
+            <span class="skill-tag">CODE</span>
+          </article>
+        </div>
+
+        <div class="other-skills reveal">
+          <span>ALSO INTO</span>
+          <span class="pill">Acoustic Guitar</span>
+          <span class="pill">Electric Guitar</span>
+          <span class="pill">Rowing</span>
+          <span class="pill">Aviation</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / THINGS I'VE BUILT</p>
+          <h2>Selected <span class="gradient-text">projects.</span></h2>
+          <p>A starting point for a growing collection of work.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass-card reveal">
+            <div class="project-preview portfolio-preview">
+              <div class="preview-window">
+                <div class="window-dots"><i></i><i></i><i></i></div>
+                <div class="preview-layout">
+                  <div class="preview-sidebar"></div>
+                  <div class="preview-content">
+                    <div class="preview-line"></div>
+                    <div class="preview-line short"></div>
+                    <div class="preview-blocks"><i></i><i></i><i></i></div>
+                  </div>
+                </div>
+              </div>
+              <span class="project-index">PROJECT 01</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-type">PERSONAL WEBSITE</div>
+              <h3>Personal Portfolio</h3>
+              <p>
+                A responsive home for my skills, projects, interests,
+                and journey as a developer.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a class="project-link" href="#contact">
+                Discuss this project <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card glass-card reveal">
+            <div class="project-preview task-preview">
+              <div class="task-window">
+                <div class="task-heading">Your workspace <span>＋</span></div>
+                <div class="task-row"><i></i><span>Plan your day</span><b>✓</b></div>
+                <div class="task-row"><i></i><span>Build something new</span><b>✓</b></div>
+                <div class="task-row"><i></i><span>Learn a new skill</span><b>○</b></div>
+                <div class="task-progress"><span></span></div>
+              </div>
+              <span class="project-index">PROJECT 02</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-type">PRODUCTIVITY CONCEPT</div>
+              <h3>Task Manager</h3>
+              <p>
+                A task-management concept for organising to-do lists,
+                keeping track of priorities, and staying productive.
+              </p>
+              <div class="project-tags">
+                <span>UI Design</span><span>JavaScript</span><span>Web</span>
+              </div>
+              <a class="project-link" href="#contact">
+                Discuss this project <span>↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <p class="projects-note">
+          These previews are illustrative designs. Add links to your
+          actual live projects when they are ready.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="interests">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 / LIFE OUTSIDE THE SCREEN</p>
+          <h2>Beyond the <span class="gradient-text">keyboard.</span></h2>
+          <p>Different passions. One curious mind.</p>
+        </div>
+
+        <div class="interests-grid">
+          <article class="interest-card glass-card reveal">
+            <figure class="interest-photo">
+              <img
+                src="images/plane - Copy.jpeg"
+                alt="Shreyash standing beside a small training aircraft"
+                width="400" height="350" loading="lazy"
+              >
+            </figure>
+            <div class="interest-content">
+              <br>
+
+              <div class="interest-icon">✈</div>
+              <div class="interest-number">01</div>
+              <h3>Aviation</h3>
+              <p>
+                Fascinated by flight and working towards the long-term
+                goal of earning my private pilot licence.
+              </p>
+              <span class="interest-footer">THE SKY IS THE LIMIT</span>
+            </div>
+          </article>
+
+          <article class="interest-card glass-card reveal">
+            <figure class="interest-photo">
+              <img
+                src="images/guitar-playing.jpg"
+                alt="Hands playing an acoustic guitar"
+                width="400" height="350" loading="lazy"
+              >
+            </figure>
+            <div class="interest-content">
+              <br>
+
+              <div class="interest-icon">♫</div>
+              <div class="interest-number">02</div>
+              <h3>Music</h3>
+              <p>
+                Playing acoustic and electric guitar, experimenting
+                with sounds, and finding room for creativity.
+              </p>
+              <span class="interest-footer">FIND YOUR RHYTHM</span>
+            </div>
+          </article>
+
+          <article class="interest-card glass-card reveal">
+            <figure class="interest-photo">
+              <img
+                src="images/rowing-team.jpg"
+                alt="A rowing crew moving together across the water"
+                width="400" height="350" loading="lazy"
+              >
+            </figure>
+            <div class="interest-content">
+              <br>
+              <div class="interest-icon">↗</div>
+              <div class="interest-number">03</div>
+              <h3>Rowing</h3>
+              <p>
+                Enjoying the focus, teamwork, and determination
+                that come with getting out on the water.
+              </p>
+              <span class="interest-footer">KEEP MOVING FORWARD</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">05 / YOUR TURN</p>
+          <h2>Have an idea?<br><span class="gradient-text">Let's talk.</span></h2>
+          <p>
+            Have a project in mind, want to share an idea, or just
+            want to talk about tech, music, or aviation? Send me
+            a message.
+          </p>
+
+          <div class="contact-detail">
+            <span class="contact-detail-icon">@</span>
+            <div>
+              <span class="muted-label">EMAIL</span>
+              <strong>Get in touch using the form</strong>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card reveal"
+          id="contact-form"
+          action="mailto:shreyashpandey@example.com"
+          method="post"
+          enctype="text/plain">
+
+          <div class="form-header">
+            <h3>Send a message</h3>
+            <span class="status-dot"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text"
+              placeholder="Shreyash Pandey"
+              autocomplete="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email"
+              placeholder="you@example.com"
+              autocomplete="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="5"
+              placeholder="Hey Shreyash, I'd like to talk about..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">
+            Send message <span>↗</span>
+          </button>
+
+          <p class="form-note" id="form-note" aria-live="polite">
+            Your default email application will handle the message.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">SP<span>.</span></a>
+      <p>Designed with curiosity. Built with code.</p>
+      <p>© <span id="copyright-year">2026</span> Shreyash Pandey</p>
+      <a href="#home" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
